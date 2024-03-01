@@ -35,5 +35,6 @@ void bitonic_sort(int *array, size_t size);
 int split(int *arr, int left, int right, size_t size);
 void sort_alg(int *arr, int left, int right, size_t size);
 int knuth_sequence(int n);
+void swap(listint_t **head, listint_t *node1, listint_t *node2);
 void quick_sort_hoare(int *array, size_t size);
 #endif
