@@ -66,6 +66,5 @@ int split(int *arr, int left, int right, size_t size)
 		arr[right] = tmp;
 		print_array(arr, size);
 	}
-
 	return (i);
 }
